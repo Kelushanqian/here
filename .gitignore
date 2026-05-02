@@ -1,0 +1,71 @@
+# 通用忽略规则
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# IDE和编辑器文件
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 环境变量和配置文件
+.env
+.env.*
+!.env.example
+!.env.template
+
+# 数据库和敏感信息
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.pkl
+
+# 构建工件
+dist/
+build/
+output/
+bin/
+obj/
+
+# 依赖和包管理
+node_modules/
+vendor/
+packages/
+
+# Python特定
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# 日志和缓存
+logs/
+*.log
+*.cache
+
+# 操作系统和系统文件
+*.bak
+*.backup
+*.temp
+*.tmp
+
+# 编译器和解释器生成的文件
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+
+# 测试和覆盖率报告
+coverage/
+*.coverage
+.testresults

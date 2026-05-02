@@ -1,0 +1,27 @@
+/* pages/overview/index.css */
+.page { background: #f5f7fa; min-height: 100vh; padding-bottom: 40px; }
+
+.hero { display: flex; flex-direction: column; align-items: center; padding: 48px 0 32px;
+        background: linear-gradient(135deg, #1677ff, #0958d9); }
+.hero-num { font-size: 72px; font-weight: 700; color: #fff; line-height: 1; }
+.hero-label { font-size: 26px; color: rgba(255,255,255,.75); margin-top: 8px; }
+
+.section-title { font-size: 28px; font-weight: 600; color: #333; padding: 32px 32px 16px; }
+
+.stat-row { display: flex; flex-wrap: wrap; gap: 20px; padding: 0 32px; }
+.stat-card { flex: 1; min-width: 140px; background: #fff; border-radius: 16px;
+             padding: 28px 20px; display: flex; flex-direction: column; align-items: center;
+             box-shadow: 0 2px 12px rgba(0,0,0,.06); }
+.stat-num   { font-size: 48px; font-weight: 700; }
+.stat-label { font-size: 24px; color: #888; margin-top: 8px; }
+
+.drone-card { background: #fff; border-radius: 16px; margin: 0 32px 20px;
+              padding: 28px 28px 24px; box-shadow: 0 2px 12px rgba(0,0,0,.06); }
+.drone-header { display: flex; justify-content: space-between; align-items: center; }
+.drone-id   { font-size: 30px; font-weight: 600; color: #222; }
+.drone-pct  { font-size: 30px; font-weight: 700; color: #1677ff; }
+.drone-sub  { font-size: 24px; color: #999; margin: 8px 0 16px; }
+.progress-track { height: 8px; background: #e8e8e8; border-radius: 4px; overflow: hidden; }
+.progress-fill  { height: 100%; border-radius: 4px; transition: width .3s; }
+
+.empty { text-align: center; color: #bbb; padding: 60px 0; font-size: 28px; }

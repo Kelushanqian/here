@@ -1,0 +1,37 @@
+/* pages/tasks/index.css */
+.tasks-page { display: flex; flex-direction: column; height: 100vh; background: #f5f7fa; }
+
+.filter-bar { white-space: nowrap; padding: 16px 24px; background: #fff;
+              border-bottom: 1px solid #f0f0f0; flex-shrink: 0; }
+.filter-chip { display: inline-block; padding: 10px 28px; margin-right: 16px;
+               border-radius: 32px; font-size: 26px; color: #666;
+               background: #f5f5f5; }
+.filter-chip.active { background: #1677ff; color: #fff; }
+
+.list { flex: 1; }
+
+.card { background: #fff; border-radius: 20px; margin: 20px 24px 0;
+        padding: 28px; box-shadow: 0 2px 12px rgba(0,0,0,.06); }
+.card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.drone-tag { font-size: 30px; font-weight: 600; color: #222; }
+.coord     { font-size: 24px; color: #999; margin-left: 12px; }
+.time      { font-size: 24px; color: #bbb; margin-bottom: 20px; display: block; }
+
+.status-pill { padding: 6px 20px; border-radius: 32px; font-size: 24px; font-weight: 500; }
+
+.img-row  { display: flex; align-items: stretch; gap: 0; }
+.img-wrap { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.thumb    { width: 100%; height: 220px; border-radius: 12px; background: #f0f0f0; }
+.img-label{ font-size: 22px; color: #999; }
+.divider  { width: 1px; background: #f0f0f0; margin: 0 16px; }
+.pending-box { width: 100%; height: 220px; border-radius: 12px; border: 2px dashed;
+               display: flex; align-items: center; justify-content: center; }
+.pending-text { font-size: 26px; font-weight: 500; }
+
+.preview-mask { position: fixed; inset: 0; background: rgba(0,0,0,.9);
+                display: flex; flex-direction: column; align-items: center; justify-content: center;
+                z-index: 999; }
+.preview-img  { width: 100%; height: 75%; }
+.preview-close{ color: rgba(255,255,255,.5); font-size: 26px; margin-top: 32px; }
+
+.empty { text-align: center; color: #bbb; padding: 100px 0; font-size: 28px; }
