@@ -26,6 +26,7 @@ Thumbs.db
 *.sqlite3
 *.sql
 *.pkl
+# *.pt
 
 # 构建工件
 dist/
